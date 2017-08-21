@@ -21,7 +21,7 @@
 
 ### 主流的处理方式
 
-##### window.name + iframe
+### window.name + iframe
 
 以前项目中的代码
 
@@ -76,15 +76,15 @@
 + jsonp对旧版的浏览器兼容性较好  
 
 
-###### document.domain + iframe    
+### document.domain + iframe    
   
 只有在主域相同的时候才能使用该方法
 
-##### 动态创建script 
+### 动态创建script 
 
-##### location.hash + iframe
+### location.hash + iframe
 
-##### web sockets
+### web sockets
 
 
 
