@@ -43,12 +43,9 @@
 
     function instance_global_node() {
         $.ajax({
-            url: 'http://' + window.location.host.split(":")[0] + ':8081/iscascloudwatch/rest/instance/globalView',
+            url: 'http://' + window.location.host.split(":")[0] + ':8081/iscascloudwatch/rest/instance/globalView？userID='+ document.getElementById('userIdInstance').innerText,
             type: 'get',
             cache: false,
-            data: {
-                'userID': document.getElementById('userIdInstance').innerText
-            },
             dataType: "json",
             jsonp:'callback',
             jsonpCallback:'callback',
